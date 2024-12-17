@@ -4,22 +4,21 @@
     padding: 0;
 }
 
+/* Contact */
 .contactText {
     font-size: 26px;
 }
-
 .contactTextN {
     font-size: 18px;
 }
 
+/* Navbar */
 .navbar a {
     color: darkgoldenrod;
 }
-
 .navbar a:hover {
     color: white;
 }
-
 .footer {
     color: darkgoldenrod;
     background: black;
@@ -31,43 +30,37 @@
     padding: 10px 0;
 
 }
-
 .btn-outline-success {
     color: darkgoldenrod;
     border: 2px solid darkgoldenrod;
 }
-
 .btn-outline-success:hover {
     color: black;
     border: 2px solid black;
     background: darkgoldenrod;
 }
 
+/* User */
 .form-control {
     border: 2px solid darkgoldenrod;
 }
-
 .form-control:hover {
     border: 4px solid darkgoldenrod;
 }
-
 .userText {
     color: black;
     font-size: 40px;
     text-align: center;
 }
-
 .userEmail {
     font-size: 20px;
 }
-
 .userPhoto {
     border-radius: 70%;
     height: 300px;
     width: 300px;
     padding: 30px;
 }
-
 .logout {
     color: black;
     background: darkgoldenrod;
@@ -75,7 +68,6 @@
     border-radius: 10px;
     font-size: 20px;
 }
-
 .logout:hover {
     color: darkgoldenrod;
     background: black;
@@ -84,6 +76,14 @@
     font-size: 20px;
     transform: scale(1.3);
 }
+
+/* Categories */
+.dropdown-item:hover{
+    color: black;
+    background: darkgoldenrod;
+}
+
+
 
 /*
 !* Селектор по ID *!
