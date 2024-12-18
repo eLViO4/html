@@ -9,6 +9,22 @@ public class ControllerCategory {
     public String coupe() {
         return "categoryCoupe";
     }
+    @GetMapping("/sedan")
+    public String sedan() {
+        return "categorySedan";
+    }
+    @GetMapping("/pickup")
+    public String pickup() {
+        return "categoryPickup";
+    }
+    @GetMapping("/hatchback")
+    public String hatchback() {
+        return "categoryHatchback";
+    }
+    @GetMapping("/suv")
+    public String SUV() {
+        return "categorySUV";
+    }
 
 
 
