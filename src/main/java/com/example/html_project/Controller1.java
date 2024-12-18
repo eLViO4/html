@@ -24,5 +24,9 @@ public class Controller1 {
     public String myPage() {
         return "myPage";
     }
+    @GetMapping("/basket")
+    public String basket() {
+        return "basket";
+    }
 
 }

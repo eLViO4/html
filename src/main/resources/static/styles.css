@@ -185,3 +185,9 @@ footer .container {
     transform: scale(1.01);
 }
 
+/* here is your basket  */
+#basketLine {
+    color: lightgray;
+    text-align: center;
+    font-size: 70px;
+}
