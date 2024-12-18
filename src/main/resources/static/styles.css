@@ -7,7 +7,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%; /* Высота страницы - 100% окна */
+    height: 100%;
 }
 
 body {
@@ -69,10 +69,39 @@ footer .container {
     color: darkgoldenrod;
     border: 2px solid darkgoldenrod;
 }
+
 .btn:hover {
     color: black;
     border: 2px solid black;
     background: darkgoldenrod;
+}
+
+/* Home photo*/
+.imageHome {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+/* cards home */
+.card {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid darkgoldenrod;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* cards home icons */
+.homeCard-icon {
+    color: darkgoldenrod;
+    margin-left: 37.5%;
+    font-size: 150px;
 }
 
 /* User */
@@ -109,6 +138,7 @@ footer .container {
     border-radius: 10px;
     font-size: 20px;
 }
+
 .logout:hover {
     color: darkgoldenrod;
     background: black;
@@ -141,10 +171,17 @@ footer .container {
     display: flex;
     border: 1px solid grey;
     border-radius: 10px;
+
 }
+
 /* kartinka avto */
 .mb-3 img {
     width: 60%;
     height: 180px;
     object-fit: cover;
 }
+
+.mb-3:hover {
+    transform: scale(1.01);
+}
+
